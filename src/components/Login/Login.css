@@ -1,0 +1,39 @@
+.containers {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1573848953384-3be02021eb0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+  height: 100vh;
+  background-position: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.contents {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.group {
+  margin: 15px 0;
+}
+
+a {
+  cursor: pointer;
+  margin-top: 20px;
+  transition: color 0.3s;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+a:hover {
+  color: black;
+}
